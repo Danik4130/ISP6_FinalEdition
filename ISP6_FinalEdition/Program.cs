@@ -129,6 +129,8 @@ namespace ConsoleApp13
                 i.Print();
                 Console.WriteLine();
             }
+            Console.WriteLine(peoples[0].CompareTo(peoples[1]));
+            Console.WriteLine(peoples[1].CompareTo(peoples[2]));
             Console.ReadKey();
         }
     }
