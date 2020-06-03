@@ -71,9 +71,9 @@ namespace ConsoleApp13
         public string SelectedJob { get; }
         public int Exp { get; }
 
-        public Specialist(string selectedSports, int exp)
+        public Specialist(string selectedJob, int exp)
         {
-            SelectedJob = selectedSports;
+            SelectedJob = selectedJob;
             Exp = exp;
         }
 
